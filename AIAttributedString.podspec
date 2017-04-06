@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AIAttributedString"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "a custom attribute string category."
 
   # This description is used to generate tags and improve search results.
