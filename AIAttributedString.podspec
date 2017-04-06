@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   a attribute string category used on iOS.
                    DESC
 
-  s.homepage     = "https://github.com/oneofai/AIMarqueeView"
+  s.homepage     = "https://github.com/oneofai/AIAttributedString"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   s.author             = { "oneofai" => "holaux@gmail.com" }
   # Or just: s.author    = "Oneofai"
   # s.authors            = { "Oneofai" => "holaux@gmail.com" }
-  s.social_media_url   = "http://twitter.com/oneofai"
+  # s.social_media_url   = "http://twitter.com/oneofai"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/oneofai/AIMarqueeView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/oneofai/AIAttributedString.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "AIAttributedString", "AIAttributedString/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "AIAttributedString/**/*.h"
+  # s.public_header_files = "AIAttributedString/**/*.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
