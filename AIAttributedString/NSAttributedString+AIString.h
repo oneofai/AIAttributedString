@@ -1,17 +1,17 @@
 //
-//  NSAttributedString+HOAString.h
-//  Meituan-takeout
+//  NSAttributedString+AIString.h
+//  AIAttributedString
 //
-//  Created by Phoenix on 10/20/16.
-//  Copyright © 2016 Phoenix. All rights reserved.
+//  Created by oneofai on 10/04/15.
+//  Copyright © 2015 oneofai. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface NSAttributedString (HOAString)
+@interface NSAttributedString (AIString)
 
-+ (instancetype)ho_imageTextWithImage:(UIImage *)image
++ (instancetype)ai_imageTextWithImage:(UIImage *)image
                               imageWidthAndHeight:(CGFloat)imageWH
                                 title:(NSString *)title
                              fontSize:(CGFloat)fontSize
