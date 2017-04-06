@@ -2,8 +2,8 @@
 //  NSAttributedString+AIString.m
 //  AIAttributedString
 //
-//  Created by oneofai on 10/04/15.
-//  Copyright © 2015 oneofai. All rights reserved.
+//  Created by Oneofai on 10/04/15.
+//  Copyright © 2015 Oneofai. All rights reserved.
 //
 
 #import "NSAttributedString+AIString.h"
